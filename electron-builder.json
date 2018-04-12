@@ -1,16 +1,26 @@
 {
-  "productName": "angular-electron",
+  "productName": "hrdsys",
   "directories": {
+    "app":"dist",
     "output": "app-builds"
   },
   "win": {
-    "icon": "dist",
+    "icon": "dist/favicon",
     "target": [
-      "portable"
+      "nsis"
+    ],
+    "publish":[
+      {
+        "provider":"github",
+        "repo":"HRDsys",
+        "owner":"halassonn",
+        "token": "1b874e14931b34107d3ccdc98d186505a49a3f61"
+
+      }
     ]
   },
   "mac": {
-    "icon": "dist",
+    "icon": "dist/favicon",
     "target": [
       "dmg"
     ]
@@ -20,5 +30,12 @@
     "target": [
       "AppImage"
     ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true,
+    "runAfterFinish": false
   }
 }
