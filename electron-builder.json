@@ -1,7 +1,6 @@
 {
   "productName": "hrdsys",
   "directories": {
-    "app":"dist",
     "output": "app-builds"
   },
   "win": {
