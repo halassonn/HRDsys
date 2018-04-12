@@ -39,6 +39,7 @@
     "e2e": "npm-run-all -p pree2e:build pree2e:protractor"
   },
   "dependencies": {
+    "electron-log": "^2.2.14",
     "electron-publish": "^20.8.1",
     "electron-updater": "^2.21.4"
   },
