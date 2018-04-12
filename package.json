@@ -1,11 +1,11 @@
 {
-  "name": "angular-electron",
-  "version": "3.1.0",
-  "description": "Angular 5 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "hrd-sys",
+  "version": "1.0.0",
+  "description": "HRD System For Ganda Group",
+  "homepage": "",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Halasson Gultom",
+    "email": "wolf86gtm@gmail.com"
   },
   "keywords": [
     "angular",
@@ -16,6 +16,10 @@
   ],
   "main": "main.js",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halassonn/HRDsys.git"
+  },
   "scripts": {
     "postinstall": "npx electron-builder install-app-deps",
     "ng": "ng",
@@ -58,7 +62,7 @@
     "core-js": "2.4.1",
     "cross-env": "5.0.5",
     "dotenv": "5.0.0",
-    "electron": "1.8.2",
+    "electron": "^1.8.2",
     "electron-builder": "20.0.5",
     "electron-reload": "1.2.2",
     "enhanced-resolve": "3.3.0",
