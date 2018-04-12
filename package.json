@@ -40,9 +40,13 @@
     "e2e": "npm-run-all -p pree2e:build pree2e:protractor"
   },
   "dependencies": {
+    "angular-datatables": "^5.0.0",
+    "datatables.net": "^1.10.16",
+    "datatables.net-dt": "^1.10.16",
     "electron-log": "^2.2.14",
     "electron-publish": "^20.8.1",
-    "electron-updater": "^2.21.4"
+    "electron-updater": "^2.21.4",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "@angular/cli": "1.7.1",
@@ -59,8 +63,10 @@
     "@ngx-translate/core": "9.1.1",
     "@ngx-translate/http-loader": "2.0.1",
     "@types/core-js": "0.9.36",
+    "@types/datatables.net": "^1.10.9",
     "@types/jasmine": "2.8.3",
     "@types/jasminewd2": "2.0.2",
+    "@types/jquery": "^3.3.1",
     "@types/node": "7.0.7",
     "codelyzer": "4.0.1",
     "copyfiles": "1.2.0",
